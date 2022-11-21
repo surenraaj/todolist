@@ -26,8 +26,8 @@
                 <li class="item">
                     <p><?php echo $row['item']; ?></p>
                     <div class="icon-container">
-                        <button type="submit" name="checked" id="check" value="<?php echo $row['id']; ?>"><img src="\todo_list\assests\check.svg"></button>
-                        <button type="submit" name="deleted" id="delete" value="<?php echo $row['id']; ?>"><img src="\todo_list\assests\delete.svg"></button>
+                        <button type="submit" name="checked" id="check" value="<?php echo $row['id']; ?>"><img src="\todolist\assests\check.svg"></button>
+                        <button type="submit" name="deleted" id="delete" value="<?php echo $row['id']; ?>"><img src="\todolist\assests\delete.svg"></button>
                     </div>
                 </li>
                 <?php } ?>
@@ -41,8 +41,8 @@
                 <li class="item fade">
                     <p class="deleted_text"><span><?php echo $row['item']; ?></span></p>
                     <div class="icon-container">
-                        <button type="submit" name="unchecked" class="" id="check" value="<?php echo $row['id']; ?>"><img src="\todo_list\assests\check.svg"></button>
-                        <button type="submit" name="deleted" class="" id="delete" value="<?php echo $row['id']; ?>"><img src="\todo_list\assests\delete.svg"></button>
+                        <button type="submit" name="unchecked" class="" id="check" value="<?php echo $row['id']; ?>"><img src="\todolist\assests\check.svg"></button>
+                        <button type="submit" name="deleted" class="" id="delete" value="<?php echo $row['id']; ?>"><img src="\todolist\assests\delete.svg"></button>
                     </div>
                 </li>
                 <?php } ?>
