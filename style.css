@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(243, 93, 93) , rgb(193, 136, 247));
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-heading{
+    text-align: center;
+    color: blanchedalmond;
+}
+
+form{
+    width: 70%;
+    max-width: 500px;
+}
+
+.input-container{
+    /* background-color: aqua; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#inputbox{
+    width: 70%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: large;
+}
+.list{
+    /* background-color: bisque; */
+}
+
+.item{
+    background-color: bisque;
+    display: flex;
+    font-size: large;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.icon-container button{
+    background-color: transparent;
+    border: none;
+    font-size: x-large;
+}
+
+.icon-container{
+    flex-basis: 20%;
+    transition: all 0.3;
+}
+.icon-container:hover{
+    transform: scale(1.009);
+}
+.item p{
+    flex-basis: 80%;
+}
+
+.hidden{
+    visibility: hidden;
+}
+
+.deleted_text{
+    text-decoration: line-through;
+    color: red;
+}
+.deleted_text span{
+    color: black;
+}
+
+.fade{
+    background-color: rgb(245, 138, 108);
+}
+#add{
+    margin-left: 10px;
+    font-size: large;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: cadetblue;
+    color: white;
+} 
+#add:hover{
+    cursor: pointer;
+}
+
+#submit{
+
+}
